@@ -2734,7 +2734,7 @@ fn start_screen(app: &mut PhotocraftApp, ui: &mut egui::Ui) {
     let recent: Vec<String> =
         if cfg!(target_arch = "wasm32") || !show_recent { Vec::new() } else { app.ui.recent_files.iter().take(HOME_RECENT).cloned().collect() };
     let recent_h = if recent.is_empty() { 0.0 } else { 34.0 + recent.len() as f32 * HOME_RECENT_ROW };
-    let card = Rect::from_center_size(area.center(), egui::vec2(460.0, 330.0 + recent_h));
+    let card = Rect::from_center_size(area.center(), egui::vec2(460.0, 250.0 + recent_h));
     let new_label = crate::shortcuts::command_label(app, "New document…", "file.new");
     let open_label = crate::shortcuts::command_label(app, "Open…", "file.open");
     ui.scope_builder(egui::UiBuilder::new().max_rect(card), |ui| {
@@ -2776,10 +2776,6 @@ fn start_screen(app: &mut PhotocraftApp, ui: &mut egui::Ui) {
                 ui.add_space(22.0);
                 home_recent(app, ui, &recent);
             }
-            ui.add_space(26.0);
-            crate::links::discord_button(app, ui, 190.0);
-            ui.add_space(10.0);
-            crate::links::link_row(app, ui);
         });
     });
 }
