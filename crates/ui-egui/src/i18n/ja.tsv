@@ -1214,7 +1214,6 @@
 	Invert All	すべて反転
 	Invert has no settings.	階調の反転には設定がありません。
 	Italic	イタリック
-	Join us on Discord	Discord に参加
 	Justify all	均等配置 (最終行も)
 	Justify last centered	最終行中央揃えの両端揃え
 	Justify last left	最終行左揃えの両端揃え
@@ -1618,7 +1617,6 @@
 	Apple Watch 45mm	Apple Watch 45mm
 	Aqua	アクア
 	Art & Illustration	アート・イラスト
-	ArtCraft	ArtCraft
 	Background Eraser Tool	背景消しゴムツール
 	Bevel & Emboss	ベベルとエンボス
 	Blend Mode	描画モード
@@ -1689,7 +1687,6 @@
 	Film & Video	フィルム・ビデオ
 	From	開始
 	General	一般
-	GitHub	GitHub
 	Gradient Overlay	グラデーションオーバーレイ
 	Gradient Tool	グラデーションツール
 	Greens	グリーン系
@@ -1766,7 +1763,6 @@
 	Pen Tool	ペンツール
 	Convert Point Tool	アンカーポイントの変換ツール
 	Photo	写真
-	PhotoCraft website	PhotoCraft の Web サイト
 	Picas	パイカ
 	Pillow Emboss	ピローエンボス
 	Pixel Replacement	ピクセルの置き換え
@@ -3351,7 +3347,6 @@ fontWeight	Italic	斜体
 	Install Plug-in	プラグインをインストール
 	Intersect with	共通部分
 	Intersect with selection  (⇧⌥)	選択範囲との共通部分  (⇧⌥)
-	Join the ArtCraft Discord	ArtCraft の Discord に参加
 	Keep proportions	縦横比を固定
 	Keep view in sync	ビューを同期
 	Keeps the current texture when switching presets.	プリセットを切り替えても現在のテクスチャを維持します。

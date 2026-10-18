@@ -541,7 +541,7 @@ fn about_tab(fields: &serde_json::Map<String, Value>) -> &'static str {
     ABOUT_TABS.iter().copied().find(|t| *t == want).unwrap_or("about")
 }
 
-/// One About tab's contents: the credits lists, or the product blurb and links.
+/// One About tab's contents: the credits lists, or the product blurb.
 fn about_tab_body(app: &mut PhotocraftApp, ui: &mut egui::Ui, tab: &str) {
     match tab {
         "contributors" => crate::credits::contributors_ui(app, ui),

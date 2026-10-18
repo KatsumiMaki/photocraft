@@ -2807,7 +2807,7 @@ pub fn mode_label(doc: &Document) -> &'static str {
 
 /// With no document open, double-clicking the empty workspace shows File › Open, as in Photoshop
 /// (#5367), and so does the Home screen's blank background. Registered before anything drawn over
-/// `area`, so the buttons and links there keep their own clicks; not a keyboard focus stop.
+/// `area`, so the buttons there keep their own clicks; not a keyboard focus stop.
 fn open_on_double_click(app: &mut PhotocraftApp, ui: &egui::Ui, area: Rect) {
     if app.session.documents().is_empty() && ui.interact(area, ui.id().with("empty-workspace"), Sense::CLICK).double_clicked() {
         let _ = app.open_dialog_file();
